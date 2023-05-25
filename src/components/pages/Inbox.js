@@ -25,7 +25,7 @@ const Inbox = () => {
                 <Box
                   sx={{ position: "relative", top: "1rem", left: "0.5rem", zIndex: "10" }}
                 >
-                  <Badge badgeContent={""} color="primary" />
+                  <Badge badgeContent={""} color="success" />
                 </Box>
               )}
               <MailCard

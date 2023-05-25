@@ -20,7 +20,7 @@ export const getData = () => {
         dispatch(
           popUpActions.popUpAlertHandler({
             message: "Fetching data failed!",
-            severity: "error",
+            severity: "Error",
           })
         );
       }

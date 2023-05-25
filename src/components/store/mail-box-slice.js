@@ -16,10 +16,18 @@ const initialState = {
       mailBody: {},
       read: false,
     },
+    321456: {
+      from: "jkl@gmail.com",
+      id: 321456,
+      subject: "Test 03",
+      mailBody: {},
+      read: false,
+    },
   },
   sent: {
     456456: { to: "abc@gmail.com", id: 456456, subject: "Test 01", mailBody: {} },
     567: { to: "xyz@gmail.com", id: 567, subject: "Test 02", mailBody: {} },
+    143: { to: "jkl@gmail.com", id: 143, subject: "Test 03", mailBody: {} },
   },
   recycle: {
     524: { to: "abc@gmail.com", id: 524, subject: "Test 01", mailBody: {} },
