@@ -84,8 +84,11 @@ const mailBoxSlice = createSlice({
       state.totalUnread = ctr;
     },
     changeReadToFalse(state, actions) {
-      state.inbox[actions.payload].read = true;
-    },
+      const itemId = actions.payload;
+      if (state.inbox.hasOwnProperty(itemId)) {
+        state.inbox[itemId].read = false;
+      }
+    },    
   },
 });
 
